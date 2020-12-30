@@ -37,7 +37,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workertype>Micro</workertype>
-				<applicationName>mulesoft-cicdpipeline</applicationName>
+				<applicationName>mulesoft-cicd-deploy</applicationName>
 				<muleversion>4.3.0</muleversion>
 				</clouHubDeployment>
 				</configuration>
