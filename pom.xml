@@ -31,6 +31,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<clouHubDeployment> 
+				<username>ssanthosh</username>
+				<password>Platform@20</password>
+				<environment>Sandbox</environment>
+				<workers>1</workers>
+				<workertype>Micro</workertype>
+				<applicationName>mulesoft-cicdpipeline</applicationName>
+				<muleversion>4.3.0</muleversion>
+				</clouHubDeployment>
 				</configuration>
 				</plugin>
 		</plugins>
