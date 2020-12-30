@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="84e0d168-8436-41b8-9b26-28078d655bad" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<flow name="mulesoft-cicd-path2020Flow" doc:id="f8dd95ab-e060-47c3-8e85-2bef0af6b424" >
 		<http:listener doc:name="Listener" doc:id="9702ee21-2e70-4d94-9672-3792934ac910" config-ref="HTTP_Listener_config" path="/path"/>
