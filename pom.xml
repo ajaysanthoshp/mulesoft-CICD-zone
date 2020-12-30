@@ -10,10 +10,7 @@
 
 	<name>mulesoft-cicd-path2020</name>
 	
-	
-	
-
-    <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -34,15 +31,6 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<clouHubDeployment> 
-				<username>ssanthosh</username>
-				<password>Platform@20</password>
-				<environment>Sandbox</environment>
-				<workers>1</workers>
-				<workertype>Micro</workertype>
-				<applicationName>mulesoft-CICD-zone</applicationName>
-				<muleversion>4.3.0</muleversion>
-				</clouHubDeployment>
 				</configuration>
 				</plugin>
 		</plugins>
